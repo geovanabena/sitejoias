@@ -1,0 +1,176 @@
+body, h1, h2, h3, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Layout básico */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: rgb(255, 234, 241);
+    color: white;
+    padding: 10px 0;
+}
+
+header .logo {
+    float: center;
+    font-size: 28px;
+    color: rgb(68, 0, 24);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header nav ul {
+    list-style-type: none;
+    float: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 15px;
+    float: center;
+}
+
+header nav ul li a {
+    color: rgb(87, 3, 32);
+    text-decoration: none;
+    float: center;
+}
+
+header .search-bar {
+    float: right;
+}
+
+header .search-bar input {
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+}
+
+header .search-bar button {
+    padding: 5px;
+    background-color: rgb(117, 0, 41);
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+.slider {
+    width: 100%;
+    max-width: 800px;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.slides {
+    display: flex;
+    width: 98%;
+    animation: slideAnimation 9s infinite;
+}
+.slide{
+    width: 100%;
+    flex-shrink: 0;
+
+}
+
+.slide img {
+    width: 100%;
+    display: block;
+   
+}
+
+@keyframes slideAnimation {
+    0% { transform: translateX(0); }
+    33.33% { transform: translateX(-100%); }
+    66.66% { transform: translateX(-200%); }
+    100% { transform: translateX(0); }
+}
+
+
+.products {
+    padding: 20px 0;
+}
+
+.products .card {
+    border: 1px solid rgb(117, 0, 41);
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+    margin: 10px;
+    display: inline-block;
+    width: 10%;
+    color: black;
+    
+}
+
+.products .card img {
+    max-width: 100%;
+    background-color: white;
+    height: auto;
+   
+}
+
+.products .card .price {
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(117, 0, 41);
+
+}
+
+footer {
+    background-color: rgb(122, 71, 89);
+    color: white;
+    padding: 20px 0;
+}
+
+footer .contact-info, footer .footer-links, footer .social-media, footer .newsletter {
+    margin-bottom: 20px;
+}
+
+footer .contact-info p {
+    margin: 5px 0;
+}
+
+footer .footer-links a, footer .social-media a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+footer .newsletter input {
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+}
+
+footer .newsletter button {
+    padding: 5px;
+    background-color: #555;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+footer .footer-bottom p {
+    margin: 0;
+}
+
+.imagem{
+    width: 80%;
+}
+
+.text {
+    color: black;
+   
+}
+
+.texxt {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}

@@ -1,0 +1,59 @@
+/* Comentario
+= ctrl + K + C */
+
+*{
+    width: auto;
+    height: auto;
+    background-color: rgb(255, 226, 246);
+}
+
+body{
+    width: 80%;
+    height: 100%;
+
+}
+
+.Título{
+    color: rgb(128, 0, 68);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+
+}
+
+.Imagens{
+    border-radius: 350%;
+    text-align: center;
+}
+
+.Informações{
+    color: rgb(128, 0, 68);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 45%;
+}
+
+.Autora{
+    color: rgb(128, 0, 68);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.Sinopse{
+    color: rgb(128, 0, 68);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.Filme{
+    color: rgb(128, 0, 68);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+    
+
+.Vídeo{
+    color: rgb(128, 0, 68);
+
+}
+
+.Compra{
+    color: mediumvioletred;
+    text-align: center;
+}

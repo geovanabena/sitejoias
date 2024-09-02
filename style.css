@@ -1,0 +1,69 @@
+/* Comentario
+= ctrl + K + C */
+
+*{
+    width: auto;
+    height: auto;
+    background-color: rgb(255, 215, 243);
+}
+
+body{
+    width: 80%;
+    height: 100%;
+
+}
+
+header{
+    background-color: rgb(255, 215, 243);
+    color: rgb(188, 2, 123);
+    border: 1px;
+    border-style: dashed;
+
+}
+
+.Formação{
+    color: rgb(188, 2, 123)e;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Formação h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.Formação li{
+    color: rgb(188, 2, 123);
+}
+
+.Experiências{
+    color: rgb(188, 2, 123);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Qualidades{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Tabela{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(188, 2, 123);
+}
+
+.Foto{
+    width: 30%;
+    border-radius: 360%;
+}
+
+a{
+    color: rgb(188, 2, 123);
+    font-style: none;
+    text-decoration: none;
+}
+
+footer{
+    padding: 10px;
+    text-align: center                                      ;
+}
+
+.imagem2{
+    width: 5%;
+}

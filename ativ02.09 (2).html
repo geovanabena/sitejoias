@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxo Eterno - Loja de Jóias</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <!--Cabeçalho-->
+    <header>
+    <div class="container"></div>
+   <center> <div class="logo">Luxo Eterno - Loja de Jóias</div> </center>
+   <br> <hr>
+    <nav> <br>
+        <ul> <center>
+            <li><a href="#">Início</a></li>
+            <li><a href="#">Mais Populares</a></li>
+            <li><a href="#">Acessórios</a></li>
+            <li><a href="#">Ofertas</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul> </center>
+    </nav>
+    <br> <hr>
+    <div class="search-bar">
+        <input type="text" placeholder="Buscar joias ou acessórios">
+        <button>Pesquisar</button> <br>
+        <button>Entrar</button>
+        <button>Cadastrar-se</button>
+    </div>
+</div>
+
+ <!-- Slider -->
+ 
+ 
+ <center><div class="slider">
+    <div class="slides">
+        <!-- Slide 1 -->
+        <div class="slide">
+            <img src="Banner1.png" alt="Banner 1">
+        </div>
+        <!-- Slide 2 -->
+        <div class="slide">
+            <img src="Banner2.png" alt="Banner 2">
+        </div>
+        <!-- Slide 3 -->
+        <div class="slide">
+            <img src="Banner3.png" alt="Banner 3">
+        </div>
+    </div>
+</div>
+</center>
+<script>
+    // JavaScript básico para auto-slide
+    const slides = document.querySelector('.slides');
+    let index = 0;
+
+    function showSlide() {
+        index++;
+        if (index >= slides.children.length) {
+            index = 0;
+        }
+        slides.style.transform = `translateX(-${index * 100}%)`;
+    }
+
+    setInterval(showSlide, 3000); // Muda o slide a cada 3 segundos
+</script>
+
+         <br>
+         <hr>
+         <br>
+         
+
+
+    <section class="imagem">
+<center>  <img  class="imagem" src="captura.png" alt="image">  </center>
+     </section>
+
+    <br>
+    <section class="text">
+        <div class="texxt">
+         <center>  Mais Vendidos  </center>
+        </div>    
+    </section>        
+     <hr>
+
+  <!-- Cards de Produtos -->
+  <section class="products">
+    <div class="container">
+        <div class="card">
+            <h5>Anel Coração simples</h5>
+            <img src="anel2.png" alt="Produto 1">
+            <p class="price">R$ 99,99</p>
+            <a href="#" class="btn">Comprar</a>
+        </div>
+        <div class="card">
+            <h5>Pulseira Coração simples</h5>
+            <img src="pulseira.png" alt="Produto 2">
+            <p class="price">R$ 199,99</p>
+            <a href="#" class="btn">Comprar</a>
+        </div>
+        <div class="card">
+            <h5>Pulseira Com Pedras</h5>
+            <img src="pulseira3.png" alt="Produto 3">
+            <p class="price">R$ 299,99</p>
+            <a href="#" class="btn">Comprar</a>
+        </div>
+        <div class="card">
+            <h5>Colar Coração Simples</h5>
+            <img src="colar.png" alt="Produto 4">
+            <p class="price">R$ 149,99</p>
+            <a href="#" class="btn">Comprar</a>
+        </div>
+        <div class="card">
+            <h5>Anel Cravejado Rosa</h5>
+            <img src="anelR.png" alt="Produto 5">
+            <p class="price">R$ 99,99</p>
+            <a href="#" class="btn">Comprar</a>
+        </div>
+        <div class="card">
+            <h5>Anel Life Infinito</h5>
+            <img src="AnelI.png" alt="Produto 6">
+            <p class="price">R$ 129,99</p>
+            <a href="#" class="btn">Comprar</a>
+        </div>
+        <div class="card">
+            <h5>Anel You & Me</h5>
+            <img src="AnelY.png" alt="Produto 7">
+            <p class="price">R$ 229,99</p>
+            <a href="#" class="btn">Comprar</a>
+        </div>
+        <div class="card">
+            <h5>Colar Simples</h5>
+            <img src="colarP.png" alt="Produto 8">
+            <p class="price">R$ 99,99</p>
+            <a href="#" class="btn">Comprar</a>
+        </div>
+        <div class="card">
+            <h5>Brinco Coração Rosa</h5>
+            <img src="brinco.png" alt="Produto 9">
+            <p class="price">R$ 149,99</p>
+            <a href="#" class="btn">Comprar</a>
+        </div>
+        <div class="card">
+            <h5>Bracelete Prata</h5>
+            <img src="bracelete.png" alt="Produto 10">
+            <p class="price">R$ 149,99</p>
+            <a href="#" class="btn">Comprar</a>
+        </div>
+        <div class="card">]
+            <h5>Anel Coração Cravejado</h5>
+            <img src="anelC.png" alt="Produto 11">
+            <p class="price">R$ 149,99</p>
+            <a href="#" class="btn">Comprar</a>
+        </div>
+        <div class="card">
+            <h5>Brinco Cravejado Simples</h5>
+            <img src="brincoS.png" alt="Produto 12">p>
+            <p class="price">R$ 99,99</p>
+            <a href="#" class="btn">Comprar</a>
+        </div>
+        <div class="card">
+            <h5>Argola Cravejada</h5>
+            <img src="argola.png" alt="Produto 13">
+            <p class="price">R$ 49,99</p>
+            <a href="#" class="btn">Comprar</a>
+        </div>
+        <div class="card">
+            <h5>Pulseira Coração</h5>
+            <img src="pulseiraC.png" alt="Produto 14">
+            <p class="price">R$ 89,99</p>
+            <a href="#" class="btn">Comprar</a>
+        </div>
+        <div class="card">
+            <h5>Conjunto Infinito Prata</h5>
+            <img src="conjunto.png" alt="Produto 15">
+            <p class="price">R$ 349,99</p>
+            <a href="#" class="btn">Comprar</a>
+        </div>
+        <div class="card">
+            <h5>Pulseira Life Infinito</h5>
+            <img src="pulseiraL.png" alt="Produto 16">
+            <p class="price">R$ 149,99</p>
+            <a href="#" class="btn">Comprar</a>
+        </div>
+        <div class="card">
+            <h5>Anel Coração Simples</h5>
+            <img src="anelCO.png" alt="Produto 17">
+            <p class="price">R$ 49,99</p>
+            <a href="#" class="btn">Comprar</a>
+        </div>
+        <div class="card">
+            <h5>Colar Cisne Cravejado</h5>
+            <img src="ColarC.png" alt="Produto 18">
+            <p class="price">R$ 249,99</p>
+            <a href="#" class="btn">Comprar</a>
+        </div>
+        <!-- Adicione mais cards conforme necessário -->
+    </div>
+</section>
+
+<!-- Rodapé -->
+<footer>
+    <div class="container">
+        <div class="contact-info">
+            <p>Endereço: Rua dos Diamantes, 123 - Cidade, Estado, CEP</p>
+            <p>Telefone: (00) 1234-5678</p>
+            <p>Email: contato@luxoeterno.com.br</p>
+        </div>
+        <div class="footer-links">
+            <a href="#">Política de Privacidade</a>
+            <a href="#">Termos de Serviço</a>
+            <a href="#">Mapa do Site</a>
+        </div>
+        <div class="social-media">
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+            <a href="#">LinkedIn</a>
+        </div>
+        <div class="newsletter">
+            <h4>Inscreva-se na nossa newsletter</h4>
+            <input type="email" placeholder="Seu e-mail">
+            <button>Inscrever-se</button>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2024 Luxo Eterno. Todos os direitos reservados.</p>
+        </div>
+    </div>
+</footer>
+
+  </header>
+</body>
+</html>

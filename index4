@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Menu de Navegação</title>
+<link rel="stylesheet" href="style4.css">
+</head>
+<body>
+<main>
+    <section class="Título">
+
+        <h1>Seja Bem-Vindo(a) Ao Meu Site</h1> 
+   
+    </section>
+   
+
+    <section class="Sobre">
+
+        <li>Sobre</li>
+
+    </section>
+
+    <section class="Serviços">
+
+        <li>Serviços</li>
+
+    </section>  
+
+    <section class="Contato">
+
+        <li>Contato</li>
+
+    </section>  
+    
+</body>
+</main>
+</html>
